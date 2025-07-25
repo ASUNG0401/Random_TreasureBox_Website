@@ -20,21 +20,37 @@
 ## 🗂 프로젝트 구조 (예시)
 
 📁 Random_TreasureBox_Website
+
 ├── index.html
+
 ├── /CSS
+
 │ └── style.css
+
 │ └── buttons.css
+
 │ └── fonts.css
+
 │ └── probability.css
+
 ├── /JS
+
 │ └── script.js
+
 ├── /images
+
 │ └── box_open.gif
+
 │ └── download.gif
+
 │ └── box.png
+
 │ └── fail.gif
+
 │ └── rare.gif
+
 ├── /font
+
 │ └── Galmuri14.ttf
 
 
