@@ -1,25 +1,26 @@
-# 🎁 랜덤박스 시뮬레이터 웹사이트
+# 🎁 Random Box Simulator
 
-랜덤박스를 클릭하면 아이템이 나오는 웹 기반 시뮬레이터입니다.  
-최대 5번의 박스를 열 수 있으며, 하루에 한 번 리셋됩니다.
+A clean and interactive web simulator for opening random treasure boxes.  
+Users can open up to 5 boxes per day — resets every 24 hours.
 
-👉 **실제 사이트 보러가기:**  
-🔗 https://asung0401.github.io/Random_TreasureBox_Website/
+## 🔗 Live Site
 
-## 📌 주요 기능
+[https://asung0401.github.io/Random_TreasureBox_Website/](https://asung0401.github.io/Random_TreasureBox_Website/)
 
-- 🎲 버튼 클릭으로 랜덤박스 오픈
-- ⏱ 5회 오픈 후 리셋 가능
-- ✨ 극악의 확률 아이템 뽑기 지원
-- 📱 반응형 UI 디자인
+## 🛠 Tech Stack
 
-## 🛠 사용 기술
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)
 
-- **HTML / CSS / JavaScript**
+## 📌 Features
 
-## 🗂 프로젝트 구조 (예시)
+- Open boxes to receive random items  
+- Supports ultra-rare item drops  
+- Max 5 opens per day (auto reset)  
+- Responsive UI for desktop and mobile
 
-📁 Random_TreasureBox_Website
+## 📂 Structure
 
 ├── index.html
 
@@ -54,18 +55,17 @@
 │ └── Galmuri14.ttf
 
 
-## 💡 향후 개발 계획
+## 📈 Planned Updates
 
-- 로그인/회원가입 기능
-- 유저별 횟수 제한 DB 연동
-- 아이템 컬렉션 기능 추가
-- 소셜 공유 기능
+- User authentication (login & sign-up)  
+- Daily limit tracking with MongoDB  
+- Item collection & inventory view  
+- Social sharing feature
 
-## 📷 미리보기
+## 🖼 Preview
 
-<img width="1765" height="834" alt="image" src="https://github.com/user-attachments/assets/247b8144-d9b2-4e3c-8d0f-a1d37f89073c" />
+![Preview](https://github.com/user-attachments/assets/247b8144-d9b2-4e3c-8d0f-a1d37f89073c)
 
+## 📄 License
 
-## 📄 라이선스
-
-본 프로젝트는 [MIT License](LICENSE)를 따릅니다.
+Released under the [MIT License](LICENSE).
