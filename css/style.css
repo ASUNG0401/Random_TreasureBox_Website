@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url("../img/download.gif") no-repeat center center fixed;
+  background-size: contain;
+  /* 크기를 축소해서 전체가 보이게 */
+  background-color: #000;
+  /* 남는 부분 검정 처리 */
+  position: relative;
+}
+
+/* 어두운 배경 덮기 */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#status {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box-img {
+  width: 150px;
+  transition: transform 0.4s ease;
+}
+
+.box-img.opened {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.box-gif {
+  width: 180px;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  display: block;
+  margin: 10px auto;
+}
+
+.box-gif.show {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}

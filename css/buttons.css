@@ -1,0 +1,34 @@
+#openBtn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background: #28a745;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#openBtn:hover {
+  background: #218838;
+}
+
+#resultBox {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.logout-btn {
+  margin-top: 30px;
+  padding: 8px 20px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #c82333;
+}

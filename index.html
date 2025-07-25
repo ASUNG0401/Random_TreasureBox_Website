@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>랜덤 박스 시뮬레이터</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/buttons.css" />
+  <link rel="stylesheet" href="css/probability.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1> 랜덤 박스</h1>
+
+    <p id="status">오늘 남은 기회: 5회</p>
+
+    <div class="box-wrapper">
+      <img id="openGif" src="img/box_open.gif" class="box-gif hidden" />
+      <button id="openBtn"> 박스 열기</button>
+    </div>
+
+    <div id="resultBox">
+      <p id="result">결과가 여기에 표시됩니다</p>
+    </div>
+
+    <button class="logout-btn" onclick="reset()">리셋</button>
+  </div>
+
+  <div class="probability-box">
+    <h2>📊 아이템 확률표</h2>
+    <div class="probability-entry rare">
+      <span class="item-name">전설의 용의검</span>
+      <span class="item-chance">0.5%</span>
+    </div>
+    <div class="probability-entry common">
+      <span class="item-name">쓰레기</span>
+      <span class="item-chance">99.5%</span>
+    </div>
+  </div>
+
+  <audio id="openSound" src="sound/open.mp3" preload="auto"></audio>
+  <script src="javascript/main.js"></script>
+</body>
+
+</html>

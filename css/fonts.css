@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Galmuri14';
+  src: url('../font/Galmuri14.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Galmuri14', sans-serif;
+}

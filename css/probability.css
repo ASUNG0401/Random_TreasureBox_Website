@@ -1,0 +1,45 @@
+.probability-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: 4px solid #333;
+  padding: 1rem;
+  width: 280px;
+  font-family: 'Galmuri9', sans-serif;
+  image-rendering: pixelated;
+  box-shadow: 4px 4px 0 #000;
+  z-index: 999;
+}
+
+.probability-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #d8aff4;
+  font-family: 'Galmuri9', sans-serif;
+  font-weight: bold;
+}
+
+.probability-entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
+.probability-entry.rare {
+  background-color: #ffeaea;
+  border-color: #f55;
+  color: #b00;
+  font-weight: bold;
+}
+
+.probability-entry.common {
+  background-color: #eef;
+  border-color: #88a;
+  color: #223;
+}
+
